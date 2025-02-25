@@ -1,3 +1,6 @@
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14921064.svg)](https://doi.org/10.5281/zenodo.14921064)
+
 # drone-video-automation
 A robust system for automating drone video streaming based on arming/disarming states. This project integrates MAVSDK for drone telemetry with GStreamer for low-latency video streaming, enabling automatic stream control based on drone operation status.
 
