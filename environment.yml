@@ -1,0 +1,21 @@
+name: drone_stream_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.16
+  - pip
+  - numpy
+  - gstreamer=1.18.5  # Core GStreamer framework
+  - gst-plugins-base=1.18.5
+  - gst-plugins-good=1.18.5
+  - gst-plugins-bad=1.18.5
+  - gst-plugins-ugly=1.18.5
+  - libav=12.3
+  - pip:
+    - mavsdk==1.4.4    # MAVLink SDK for drone communication
+    - grpcio==1.43.0   # Required for MAVSDK
+    - protobuf==3.20.0 # Protocol Buffers
+    - opencv-python==4.5.5.64  # Optional for video processing
+    - flake8           # Code linting
+    - pytest           # Testing framework
