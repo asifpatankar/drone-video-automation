@@ -8,8 +8,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Jetson Nano SSH connection details
-JETSON_USER = "username"
-JETSON_IP = "IP_address"
+JETSON_USER = "<USERNAME>"
+JETSON_IP = "<IP_ADDRESS>"
 STREAM_SCRIPT_PATH = "/path/to/stream_script.sh"
 
 async def set_script_permissions():
