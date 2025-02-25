@@ -192,7 +192,7 @@ Open QGroundControl and configure the video settings:
 
 1. Check SSH connectivity: `ssh username@jetson-ip-address`
 2. Verify script permissions: `ls -l /media/video-stream/stream_script.sh`
-3. Check logs on Jetson: `cat /tmp/stream.log`
+3. Check logs on Jetson: `cat /tmp/stream_script.log`
 
 ### Video Not Appearing in QGroundControl
 
